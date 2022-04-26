@@ -8,7 +8,7 @@ const TodoItem = ({ todo }) => {
         {todo}
       </div>
     </React.Fragment>
-  )
+  );
 };
 
 export default TodoItem;

@@ -27,7 +27,7 @@ class TodoApp1 extends React.Component {
   };
   render() {
     return (
-      <React.Fragment>
+      <>
         <div className="add-todo">
           <input
             type="text"
@@ -43,7 +43,7 @@ class TodoApp1 extends React.Component {
           })}
          
         </div>
-      </React.Fragment>
+      </>
     );
   }
 }
